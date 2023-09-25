@@ -70,3 +70,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:x-large;
 }
+.logo{
+    color:white  ;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {color:rgb(141, 233, 213);}
+    25%  {color:rgb(76, 204, 183);}
+    50%  {color:rgb(17, 161, 218);}
+    75%  {color:rgb(0, 87, 128); }
+    100% {color:rgb(255, 255, 255);}
+  }
